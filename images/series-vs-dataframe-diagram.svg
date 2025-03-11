@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Series vs DataFrame Comparison</text>
+  
+  <!-- DataFrame Section (Right Side) -->
+  <rect x="420" y="80" width="330" height="320" fill="white" stroke="#ddd" stroke-width="2" rx="5" ry="5"/>
+  
+  <!-- DataFrame Title -->
+  <text x="590" y="70" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">DataFrame</text>
+  
+  <!-- DataFrame Column Headers -->
+  <rect x="480" y="80" width="90" height="40" fill="#e6f3ff" stroke="#aad" stroke-width="1"/>
+  <rect x="570" y="80" width="90" height="40" fill="#e6f3ff" stroke="#aad" stroke-width="1"/>
+  <rect x="660" y="80" width="90" height="40" fill="#e6f3ff" stroke="#aad" stroke-width="1"/>
+  
+  <!-- DataFrame Column Header Text -->
+  <text x="525" y="105" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">author</text>
+  <text x="615" y="105" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">commits</text>
+  <text x="705" y="105" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">lines</text>
+  
+  <!-- DataFrame Index Headers -->
+  <rect x="420" y="120" width="60" height="40" fill="#fff0e6" stroke="#daa" stroke-width="1"/>
+  <rect x="420" y="160" width="60" height="40" fill="#fff0e6" stroke="#daa" stroke-width="1"/>
+  <rect x="420" y="200" width="60" height="40" fill="#fff0e6" stroke="#daa" stroke-width="1"/>
+  <rect x="420" y="240" width="60" height="40" fill="#fff0e6" stroke="#daa" stroke-width="1"/>
+  <rect x="420" y="280" width="60" height="40" fill="#fff0e6" stroke="#daa" stroke-width="1"/>
+  
+  <!-- DataFrame Index Header Text -->
+  <text x="450" y="145" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">0</text>
+  <text x="450" y="185" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">1</text>
+  <text x="450" y="225" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">2</text>
+  <text x="450" y="265" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">3</text>
+  <text x="450" y="305" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">4</text>
+  
+  <!-- DataFrame Corner cell (empty) -->
+  <rect x="420" y="80" width="60" height="40" fill="#f8f8f8" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- DataFrame Data Cells -->
+  <!-- Row 0 -->
+  <rect x="480" y="120" width="90" height="40" fill="white" stroke="#ddd" stroke-width="1"/>
+  <rect x="570" y="120" width="90" height="40" fill="#e6fff2" stroke="#ddd" stroke-width="1"/>
+  <rect x="660" y="120" width="90" height="40" fill="white" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- Row 1 -->
+  <rect x="480" y="160" width="90" height="40" fill="white" stroke="#ddd" stroke-width="1"/>
+  <rect x="570" y="160" width="90" height="40" fill="#e6fff2" stroke="#ddd" stroke-width="1"/>
+  <rect x="660" y="160" width="90" height="40" fill="white" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- Row 2 -->
+  <rect x="480" y="200" width="90" height="40" fill="white" stroke="#ddd" stroke-width="1"/>
+  <rect x="570" y="200" width="90" height="40" fill="#e6fff2" stroke="#ddd" stroke-width="1"/>
+  <rect x="660" y="200" width="90" height="40" fill="white" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- Row 3 -->
+  <rect x="480" y="240" width="90" height="40" fill="white" stroke="#ddd" stroke-width="1"/>
+  <rect x="570" y="240" width="90" height="40" fill="#e6fff2" stroke="#ddd" stroke-width="1"/>
+  <rect x="660" y="240" width="90" height="40" fill="white" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- Row 4 -->
+  <rect x="480" y="280" width="90" height="40" fill="white" stroke="#ddd" stroke-width="1"/>
+  <rect x="570" y="280" width="90" height="40" fill="#e6fff2" stroke="#ddd" stroke-width="1"/>
+  <rect x="660" y="280" width="90" height="40" fill="white" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- DataFrame Sample Data -->
+  <text x="525" y="145" font-family="monospace" font-size="14" text-anchor="middle">Alice</text>
+  <text x="615" y="145" font-family="monospace" font-size="14" text-anchor="middle">42</text>
+  <text x="705" y="145" font-family="monospace" font-size="14" text-anchor="middle">1024</text>
+  
+  <text x="525" y="185" font-family="monospace" font-size="14" text-anchor="middle">Bob</text>
+  <text x="615" y="185" font-family="monospace" font-size="14" text-anchor="middle">17</text>
+  <text x="705" y="185" font-family="monospace" font-size="14" text-anchor="middle">539</text>
+  
+  <text x="525" y="225" font-family="monospace" font-size="14" text-anchor="middle">Charlie</text>
+  <text x="615" y="225" font-family="monospace" font-size="14" text-anchor="middle">29</text>
+  <text x="705" y="225" font-family="monospace" font-size="14" text-anchor="middle">782</text>
+  
+  <text x="525" y="265" font-family="monospace" font-size="14" text-anchor="middle">Dave</text>
+  <text x="615" y="265" font-family="monospace" font-size="14" text-anchor="middle">103</text>
+  <text x="705" y="265" font-family="monospace" font-size="14" text-anchor="middle">3541</text>
+  
+  <text x="525" y="305" font-family="monospace" font-size="14" text-anchor="middle">Eve</text>
+  <text x="615" y="305" font-family="monospace" font-size="14" text-anchor="middle">5</text>
+  <text x="705" y="305" font-family="monospace" font-size="14" text-anchor="middle">128</text>
+  
+  <!-- Series Section (Left Side) -->
+  <rect x="100" y="80" width="160" height="320" fill="white" stroke="#ddd" stroke-width="2" rx="5" ry="5"/>
+  
+  <!-- Series Title -->
+  <text x="180" y="70" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Series</text>
+  
+  <!-- Series Index Headers -->
+  <rect x="100" y="120" width="80" height="40" fill="#fff0e6" stroke="#daa" stroke-width="1"/>
+  <rect x="100" y="160" width="80" height="40" fill="#fff0e6" stroke="#daa" stroke-width="1"/>
+  <rect x="100" y="200" width="80" height="40" fill="#fff0e6" stroke="#daa" stroke-width="1"/>
+  <rect x="100" y="240" width="80" height="40" fill="#fff0e6" stroke="#daa" stroke-width="1"/>
+  <rect x="100" y="280" width="80" height="40" fill="#fff0e6" stroke="#daa" stroke-width="1"/>
+  
+  <!-- Series Index Header Text -->
+  <text x="140" y="145" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">Alice</text>
+  <text x="140" y="185" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">Bob</text>
+  <text x="140" y="225" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">Charlie</text>
+  <text x="140" y="265" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">Dave</text>
+  <text x="140" y="305" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">Eve</text>
+  
+  <!-- Series Column Headers -->
+  <rect x="180" y="80" width="80" height="40" fill="#e6f3ff" stroke="#aad" stroke-width="1"/>
+  
+  <!-- Series Column Header Text -->
+  <text x="220" y="105" font-family="monospace" font-size="14" text-anchor="middle" font-weight="bold">commits</text>
+  
+  <!-- Series Corner cell (empty) -->
+  <rect x="100" y="80" width="80" height="40" fill="#f8f8f8" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- Series Data Cells -->
+  <rect x="180" y="120" width="80" height="40" fill="#e6fff2" stroke="#ddd" stroke-width="1"/>
+  <rect x="180" y="160" width="80" height="40" fill="#e6fff2" stroke="#ddd" stroke-width="1"/>
+  <rect x="180" y="200" width="80" height="40" fill="#e6fff2" stroke="#ddd" stroke-width="1"/>
+  <rect x="180" y="240" width="80" height="40" fill="#e6fff2" stroke="#ddd" stroke-width="1"/>
+  <rect x="180" y="280" width="80" height="40" fill="#e6fff2" stroke="#ddd" stroke-width="1"/>
+  
+  <!-- Series Sample Data -->
+  <text x="220" y="145" font-family="monospace" font-size="14" text-anchor="middle">42</text>
+  <text x="220" y="185" font-family="monospace" font-size="14" text-anchor="middle">17</text>
+  <text x="220" y="225" font-family="monospace" font-size="14" text-anchor="middle">29</text>
+  <text x="220" y="265" font-family="monospace" font-size="14" text-anchor="middle">103</text>
+  <text x="220" y="305" font-family="monospace" font-size="14" text-anchor="middle">5</text>
+  
+  <!-- Connection between Series and DataFrame -->
+  <path d="M410 200 L270 200" stroke="#2ecc71" stroke-width="3" stroke-dasharray="5,5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Highlight color for commits column -->
+  <text x="350" y="190" font-family="Arial" font-size="14" text-anchor="middle" fill="#2ecc71" font-weight="bold">Column extracted</text>
+  <text x="350" y="210" font-family="Arial" font-size="14" text-anchor="middle" fill="#2ecc71" font-weight="bold">as Series</text>
+  
+  
+  
+  <!-- Annotation for Series -->
+  <rect x="100" y="410" width="20" height="15" fill="#e6fff2" stroke="#2ecc71" stroke-width="1"/>
+  <text x="130" y="422" font-family="Arial" font-size="14" text-anchor="start">Series: 1D labeled array</text>
+  
+  <!-- Annotation for DataFrame -->
+  <rect x="320" y="410" width="20" height="15" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="350" y="422" font-family="Arial" font-size="14" text-anchor="start">DataFrame: 2D labeled table</text>
+  
+  <!-- Annotation for Index -->
+  <rect x="550" y="410" width="20" height="15" fill="#fff0e6" stroke="#daa" stroke-width="1"/>
+  <text x="580" y="422" font-family="Arial" font-size="14" text-anchor="start">Index: Row labels</text>
+  
+  <!-- Series metadata annotation -->
+  <text x="180" y="350" font-family="Arial" font-size="14" text-anchor="middle" fill="#555" font-style="italic">commits</text>
+  <text x="180" y="370" font-family="Arial" font-size="14" text-anchor="middle" fill="#555" font-style="italic">dtype: int64</text>
+  
+  <!-- DataFrame metadata annotation -->
+  <text x="590" y="350" font-family="Arial" font-size="14" text-anchor="middle" fill="#555" font-style="italic">commits_df.shape = (5, 3)</text>
+  <text x="590" y="370" font-family="Arial" font-size="14" text-anchor="middle" fill="#555" font-style="italic">dtypes: object, int64, int64</text>
+  
+  <!-- Series Properties -->
+  <text x="120" y="450" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">Contains</text>
+  <text x="120" y="465" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">single column</text>
+  
+  <!-- DataFrame Properties -->
+  <text x="400" y="450" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">Contains</text>
+  <text x="400" y="465" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">multiple columns</text>
+  
+  <!-- Common Properties -->
+  <text x="670" y="450" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">Both have index</text>
+  <text x="670" y="465" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">for fast lookups</text>
+  
+  <!-- Series Access Example -->
+  <text x="180" y="485" font-family="monospace" font-size="12" text-anchor="middle">commits['Alice'] → 42</text>
+  
+  <!-- DataFrame Access Example -->
+  <text x="590" y="485" font-family="monospace" font-size="12" text-anchor="middle">commits_df.loc[0, 'commits'] → 42</text>
+  
+  <!-- Arrowhead marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2ecc71"/>
+    </marker>
+  </defs>
+</svg>
