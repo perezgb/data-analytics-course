@@ -3,7 +3,7 @@
   <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
   
   <!-- Title -->
-  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Extract Series from Dataframe</text>
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Extract Series from DataFrame</text>
   
   <!-- DataFrame Section (Right Side) -->
   <rect x="420" y="80" width="330" height="320" fill="white" stroke="#ddd" stroke-width="2" rx="5" ry="5"/>
